@@ -1,0 +1,220 @@
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:5px !important; padding-bottom:0 !important;
+    font-size:15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    background-color:black !important;
+    height: 80px;
+}
+
+.navbar {min-height:30px !important;}
+
+.button {
+    position:absolute;
+    bottom:410px;
+    right:1100px;
+    height: 31px;
+    width: 126px;
+    font-size: 13px
+}
+
+  .parallax {
+    
+    background-image: url('https://i.pinimg.com/originals/1a/51/81/1a5181279fe9cfc240bff40f9299cd60.jpg');
+  
+    
+    min-height: 735px; 
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+   .top {
+    margin-top: 6%;
+    margin-left: 15%;
+    font-size: 15px;
+    position: fixed;
+    font-family: 'Lato', sans-serif;
+    animation: fadein 2s;
+  }
+
+  .MustangInfo {
+    position: absolute;
+    top: 140%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+  }
+
+  .stangPic{
+    background-image: url('pics/stang 1.png');
+
+    width: 100%;
+    height: 1050px;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+
+.arrow{
+    position: absolute;
+    bottom: 4%; 
+    left: 50%;
+    opacity: 1;
+}
+
+.arrow {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0);
+	}
+
+	70% {
+		transform: scale(1.1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }}
+    
+    .ml-1 {
+        margin-left: 58px !important;
+      }
+
+      .ml-2 {
+        margin-left: 460px !important;
+      }
+
+      .ml-3 {
+        margin-left: 80px !important;
+      }
+
+
+      @media all and (min-width: 992px) {
+        .navbar{ padding-top: 0; padding-bottom: 0; }
+        .navbar .has-megamenu{position:static!important;}
+        .navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+        .navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+    }
+
+    .btn-light {
+        color: white;
+        background-color: black;
+        border-color: black; 
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+    }
+    .btn-light:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+        color: #fff;
+        background-color: black;
+        border-color: black; 
+    }
+
+    .vertical-center {
+        margin-left: 25%;
+      }
+
+
+       
+ 
+        .dropdown .dropdown-menu {
+            transition: all 0.3s;
+            overflow: hidden;
+            transform-origin: top;
+            transform: scale(1, 0);
+            display: block;
+       }
+        .dropdown:hover .dropdown-menu {
+            transform: scale(1);
+       }
+
+       .rowMargin{
+
+        margin-left: 80px;
+        margin-bottom: 15px;
+       }
+
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: black;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+#screenSelectBtn1{
+  position: fixed;
+  
+margin-left: 96%;
+margin-top: 20%;
+}
+
+#screenSelectBtn2{
+  position: fixed;
+  
+margin-left: 96%;
+margin-top: 24%;
+}
